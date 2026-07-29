@@ -1,22 +1,70 @@
 ---
 layout: home
-title: Zena · Portfolio
+title: Gaeun Kim · Portfolio
 entries_layout: grid
 ---
-<!-- ---
-layout: home
-limit: 10
-show_excerpts: true
-entries_layout: list
---- -->
 
-# Hi, I'm Gaeun Kim 👋
-This is where I share my projects, AI experiments, and more.
+# Hi, I'm Gaeun Kim.
 
-### 🔧 Projects I'm working on:
-- **Face2Voice** — 얼굴 이미지와 텍스트를 입력하면, 얼굴 정체성을 반영한 음성을 합성하는 데모 웹앱  
-- **CIFAR-10 Image Classifier**
-- **My Frige** - 레시피 추천 · 식단 도우미 — 냉장고 속 재료로 추천해주는 간단한 AI 프로젝트  
-- 기타 기록 — 공부 & 실험 로그
+AI Engineer interested in Computer Vision, Deep Learning, and Industrial AI.
 
-최신 글은 아래에서 확인하세요.
+I enjoy solving real-world vision problems through research, experimentation, and engineering.
+
+---
+
+## Current Focus
+
+- Continuous Orientation Estimation for Industrial Objects
+- Computer Vision
+- Deep Learning
+- Edge AI
+- Multimodal AI
+
+---
+
+## Featured Projects
+
+### Industrial Object Orientation Estimation *(Ongoing)*
+
+Research on estimating continuous object orientation using
+classical computer vision and deep learning.
+
+**Keywords**
+OpenCV · GrabCut · Skeleton · Keypoint Detection · PyTorch
+
+---
+
+### AAC Vision System
+
+Eye-gaze based AAC recommendation system using wearable smart glasses.
+
+**Keywords**
+Computer Vision · FastAPI · CLIP · OCR
+
+---
+
+### Face2Voice
+
+Generate identity-preserving speech from a face image and text.
+
+**Keywords**
+Generative AI · TTS
+
+---
+
+### My Fridge
+
+Recipe recommendation system using available ingredients.
+
+**Keywords**
+Recommendation System · AI
+
+---
+
+## Interests
+
+- Computer Vision
+- Deep Learning
+- Industrial AI
+- Edge AI
+- Human-centered AI
