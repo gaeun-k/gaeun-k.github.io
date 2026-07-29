@@ -34,7 +34,18 @@ OpenCV · GrabCut · Skeleton · Keypoint Detection · PyTorch
 
 ---
 
-### AAC Vision System
+### Emotion-Based Travel Destination Recommendation
+
+Developed an emotion-aware travel recommendation system by
+fine-tuning a multilingual CLIP model to learn semantic
+relationships between user emotions and destination images.
+
+**Keywords**  
+CLIP Fine-tuning · Contrastive Learning · Computer Vision · Multimodal AI · PyTorch
+
+---
+
+### Wearable AAC Vision System
 
 Eye-gaze based AAC recommendation system using wearable smart glasses.
 
@@ -49,15 +60,6 @@ Generate identity-preserving speech from a face image and text.
 
 **Keywords**
 Generative AI · TTS
-
----
-
-### My Fridge
-
-Recipe recommendation system using available ingredients.
-
-**Keywords**
-Recommendation System · AI
 
 ---
 
