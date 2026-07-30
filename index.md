@@ -43,6 +43,8 @@ relationships between user emotions and destination images.
 **Keywords**  
 CLIP Fine-tuning · Contrastive Learning · Computer Vision · Multimodal AI · PyTorch
 
+**Repo**: [gaeun-k/AI-Travel-Recommendation](https://github.com/gaeun-k/AI-Travel-Recommendation)
+
 ---
 
 ### Wearable AAC Vision System
@@ -52,6 +54,8 @@ Eye-gaze based AAC recommendation system using wearable smart glasses.
 **Keywords**
 Computer Vision · FastAPI · CLIP · OCR
 
+**Repo**: [gaeun-k/AAC-Scene-Recognition-AI](https://github.com/gaeun-k/AAC-Scene-Recognition-AI)
+
 ---
 
 ### Face2Voice
@@ -60,6 +64,21 @@ Generate identity-preserving speech from a face image and text.
 
 **Keywords**
 Generative AI · TTS
+
+**Repo**: [gaeun-k/Face2Voice](https://github.com/gaeun-k/Face2Voice)
+
+---
+
+### Moms-touch *(Vibe Coding Project)*
+
+Mobile app that turns spoken or written family recipes into
+structured, shareable recipes — preserving recipes passed down
+orally from mothers and grandmothers.
+
+**Keywords**
+React Native · FastAPI · GPT-4o-mini · Speech-to-Text
+
+**Repo**: [gaeun-k/Moms-touch](https://github.com/gaeun-k/Moms-touch)
 
 ---
 

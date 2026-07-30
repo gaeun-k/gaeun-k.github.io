@@ -4,7 +4,7 @@ locale: en-US
 title: "AI Portfolio"
 description: "It really is the best."
 baseurl: ""
-url: "https://gaeun1018.github.io"
+url: "https://gaeun-k.github.io"
 logo: # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: # reading time estimates, e.g. true
