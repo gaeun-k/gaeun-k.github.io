@@ -13,8 +13,7 @@ Jekyll + [so-simple-theme](https://github.com/mmistakes/so-simple-theme) 기반�
 
 ## Study
 
-- [CV_Study](https://github.com/gaeun-k/CV_Study) — 5명이 함께하는 10주 컴퓨터비전 스터디 (이미지 분류·객체 탐지)
+- [kaggle-study](https://github.com/gaeun-k/kaggle-study) — 5명이 함께하는 8주 Kaggle 컴퓨터비전 스터디 (이미지 분류·객체 탐지)
 - [CIFAR10_Pytorch](https://github.com/gaeun-k/CIFAR10_Pytorch) — CIFAR-10 분류 CNN 단계별 개선 실습
-- [kaggle-study](https://github.com/gaeun-k/kaggle-study) — Kaggle 컴퓨터비전 대회 스터디
 - [TIL](https://github.com/gaeun-k/TIL) — 딥러닝·알고리즘·인턴십 학습 기록
 - [Class_ML](https://github.com/gaeun-k/Class_ML) — 머신러닝 수업 실습 코드
