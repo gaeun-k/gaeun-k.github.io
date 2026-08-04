@@ -86,6 +86,9 @@ links:
 
 # Footer Links
 footer_links:
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/%EA%B0%80%EC%9D%80-%EA%B9%80-a38925421/
+    icon: fab fa-linkedin
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square
