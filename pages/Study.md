@@ -9,7 +9,7 @@ permalink: /study/
 AI/ML을 공부하며 정리한 저장소들입니다. 세부 내용보다는 중요한 순서대로 핵심만 요약했습니다.
 
 ## [CV_Study](https://github.com/gaeun-k/CV_Study)
-성신여대·성균관대·덕성여대 등 여러 학교 학생들과 진행한 10주 컴퓨터비전 스터디.
+성신여대·성균관대·덕성여대 학생 5명이 함께하는 10주 컴퓨터비전 스터디 (2~5주차 Cassava, 6~10주차 Wheat Detection).
 - **Cassava Leaf Disease Classification**: EDA, baseline 모델, augmentation, 하이퍼파라미터 튜닝
 - **Global Wheat Detection**: YOLO 기반 객체 탐지, bounding box · IoU · mAP
 
