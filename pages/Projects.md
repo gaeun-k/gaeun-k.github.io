@@ -11,6 +11,12 @@ permalink: /projects/
 - **Features**: 장면 분류(13종) + 감정 정렬 듀얼 헤드 구조, 텍스트↔이미지 / 이미지↔이미지 검색
 - **Repo**: <https://github.com/gaeun-k/AI-Travel-Recommendation>
 
+{% for post in site.posts %}
+  {% if post.categories contains "ai-travel-recommendation" %}
+- **포스팅**: [{{ post.title }}]({{ post.url }})
+  {% endif %}
+{% endfor %}
+
 ---
 
 ## AAC-Scene-Recognition-AI
@@ -19,6 +25,12 @@ permalink: /projects/
 - **Tech**: OpenCLIP 기반 장면 분류, FastAPI 백엔드
 - **Features**: 병원 접수처·약국·카페·식당·편의점 계산대, 버스/지하철 입구 등 7종 장면 분류, Swagger API 문서
 - **Repo**: <https://github.com/gaeun-k/AAC-Scene-Recognition-AI>
+
+{% for post in site.posts %}
+  {% if post.categories contains "aac-scene-recognition-ai" %}
+- **포스팅**: [{{ post.title }}]({{ post.url }})
+  {% endif %}
+{% endfor %}
 
 ---
 
@@ -37,3 +49,9 @@ permalink: /projects/
 - **Tech**: React Native(Expo) + TypeScript, FastAPI, PostgreSQL, GPT-4o-mini, Google STT/TTS
 - **Features**: 음성→레시피 변환, 지역 기반 레시피 지도, 맞춤 추천(지역·난이도), 단계별 음성 안내, 좋아요/프로필
 - **Repo**: <https://github.com/gaeun-k/Moms-touch>
+
+{% for post in site.posts %}
+  {% if post.categories contains "moms-touch" %}
+- **포스팅**: [{{ post.title }}]({{ post.url }})
+  {% endif %}
+{% endfor %}
