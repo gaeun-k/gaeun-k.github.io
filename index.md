@@ -33,7 +33,7 @@ from segmentation and detection to a data-driven scoring tool.
 **Keywords**
 SAM Segmentation · Oriented Bounding Box Detection · Keypoint Detection · PyTorch
 
-**포스팅**: [/projects/](/projects/#완철애자-기울기-자동-진단)
+**Post**: [Crossarm & Insulator Tilt Diagnosis]({% post_url 2026-08-04-crossarm-insulator-tilt %})
 
 ---
 
