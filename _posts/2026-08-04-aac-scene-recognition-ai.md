@@ -15,12 +15,12 @@ Meta Glass로 촬영한 이미지를 분석해 사용자가 처한 상황(장면
 병원 접수처 · 약국 · 카페 · 식당 · 편의점 계산대 · 버스 입구 · 지하철 개찰구 (총 7종)
 
 ### Stack
-- **Model**: OpenCLIP (baseline, 파인튜닝 예정)
+- **Model**: OpenCLIP → Meta Glass 환경에 맞춘 CLIP 파인튜닝
 - **Backend**: FastAPI
 - **Docs**: Swagger
 
 ### Status
-현재 baseline 모델과 FastAPI 서버는 정상 동작 중이며, Meta Glass 환경에 맞춘 파인튜닝을 위한 데이터셋을 수집 중입니다.
+Baseline CLIP + FastAPI 서버 구축에 이어 Meta Glass 환경에 맞춘 CLIP 파인튜닝까지 마치고 프로젝트를 완료했습니다.
 
 ### Repo
 <https://github.com/gaeun-k/AAC-Scene-Recognition-AI>

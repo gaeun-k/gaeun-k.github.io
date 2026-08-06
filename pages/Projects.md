@@ -2,6 +2,8 @@
 layout: page
 title: Projects
 permalink: /projects/
+---
+
 ## 완철·애자 기울기 자동 진단
 전주 점검 사진에서 완철과 애자의 기울기를 자동으로 측정하고, 정상/의심 여부를 판정하는 파이프라인. 세그멘테이션 → 탐지 모델 → 판정 로직 → keypoint 실험 → 도구화까지 약 2주간 진행했습니다.
 
@@ -35,7 +37,7 @@ permalink: /projects/
 ## AAC-Scene-Recognition-AI
 스마트 글래스(Meta Glass)로 촬영한 이미지를 분석해 현재 상황(장면)을 인식하고, 알맞은 AAC(보완대체의사소통) 카드를 추천하는 시스템입니다.
 
-- **Tech**: OpenCLIP 기반 장면 분류, FastAPI 백엔드
+- **Tech**: Meta Glass 환경에 맞춘 CLIP 파인튜닝 기반 장면 분류, FastAPI 백엔드
 - **Features**: 병원 접수처·약국·카페·식당·편의점 계산대, 버스/지하철 입구 등 7종 장면 분류, Swagger API 문서
 - **Repo**: <https://github.com/gaeun-k/AAC-Scene-Recognition-AI>
 
