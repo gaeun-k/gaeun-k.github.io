@@ -24,13 +24,16 @@ I enjoy solving real-world vision problems through research, experimentation, an
 
 ## Featured Projects
 
-### Industrial Object Orientation Estimation *(Ongoing)*
+### Crossarm & Insulator Tilt Diagnosis
 
-Research on estimating continuous object orientation using
-classical computer vision and deep learning.
+Automated diagnosis pipeline that measures crossarm/insulator tilt
+from utility pole inspection photos and flags abnormal hardware,
+from segmentation and detection to a data-driven scoring tool.
 
 **Keywords**
-OpenCV · GrabCut · Skeleton · Keypoint Detection · PyTorch
+SAM Segmentation · Oriented Bounding Box Detection · Keypoint Detection · PyTorch
+
+**포스팅**: [/projects/](/projects/#완철애자-기울기-자동-진단)
 
 ---
 
