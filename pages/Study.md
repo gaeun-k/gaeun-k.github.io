@@ -8,6 +8,10 @@ permalink: /study/
 
 AI/ML을 공부하며 정리한 저장소들입니다. 세부 내용보다는 중요한 순서대로 핵심만 요약했습니다.
 
+## [YOLOv5 vs EfficientNet 비교 실험]({% post_url 2026-08-27-yolov5-vs-efficientnet %})
+같은 결함(너트 풀림)을 탐지(YOLOv5)와 분류(EfficientNet-B0)로 각각 풀어 데이터 비율·증강 여부를 바꿔가며 총 24개 조합을 학습·비교.
+- 지표(Recall 등)만으로 모델을 비교하면 안 되는 이유, 프레임워크 기본 증강 설정을 확인하지 않아 겪은 실수, 결과 검증의 중요성 등을 정리
+
 ## [kaggle-study](https://github.com/gaeun-k/kaggle-study)
 성신여대·성균관대·덕성여대 학생 5명이 함께하는 8주 Kaggle 컴퓨터비전 스터디.
 - **Cassava Leaf Disease Classification**: EDA, baseline 모델, augmentation, 하이퍼파라미터 튜닝
