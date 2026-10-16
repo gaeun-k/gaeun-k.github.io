@@ -24,7 +24,7 @@ I enjoy solving real-world vision problems through research, experimentation, an
 
 ## Featured Projects
 
-- **Crossarm & Insulator Tilt Diagnosis** — Automated diagnosis pipeline that measures crossarm/insulator tilt from utility pole inspection photos and flags abnormal hardware.
+- **Neural-D Internship** — 7 computer vision projects on utility pole/facility inspection, including crossarm/insulator tilt diagnosis and defect detection pipelines.
 - **Emotion-Based Travel Destination Recommendation** — Emotion-aware travel recommendation system built by fine-tuning a multilingual CLIP model.
 - **Wearable AAC Vision System** — Scene recognition system that recommends AAC cards using wearable smart glasses.
 - **Face2Voice** — Generates identity-preserving speech from a face image and text.

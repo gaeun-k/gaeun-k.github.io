@@ -4,16 +4,37 @@ title: Projects
 permalink: /projects/
 ---
 
-## 완철·애자 기울기 자동 진단
+## Neural-D 인턴십
+전주·시설물 점검 관련 컴퓨터비전 프로젝트 7건을 진행했습니다. 코드는 [gaeun-k/cv_intern](https://github.com/gaeun-k/cv_intern)에 정리되어 있습니다 (실제 학습 데이터·이미지는 비공개, 방법론·코드만 공개).
+
+### 완철·애자 기울기 자동 진단
 전주 점검 사진에서 완철과 애자의 기울기를 자동으로 측정하고, 정상/의심 여부를 판정하는 파이프라인. 세그멘테이션 → 탐지 모델 → 판정 로직 → keypoint 실험 → 도구화까지 약 2주간 진행했습니다.
 
 - **Tech**: SAM(세그멘테이션), 회전 바운딩 박스(OBB) 탐지, Keypoint 모델, PyTorch
 - **Features**: 완철/전주/주변 애자 각도 기반 동적 기준선 산출, 사람이 매긴 정답 데이터 기반 판정 로직 보정, 정상/의심 표시 뷰어 도구
-- **Note**: 실제 서비스 데이터·이미지는 비공개 (방법론만 공개)
 
 {% for post in site.posts %}
   {% if post.categories contains "crossarm-insulator-tilt" %}
 - **포스팅**: [{{ post.title }}]({{ post.url }})
+  {% endif %}
+{% endfor %}
+
+### 시설물 불량 진단
+전주 설비(너트 체결부·전선·커버) 3종의 불량을 YOLO(탐지) + EfficientNet-B0(분류) 2단계 파이프라인으로 진단하는 프로젝트 3개.
+
+- **Tech**: YOLOv5/ultralytics, EfficientNet-B0 fine-tuning, PyTorch
+- **Features**: 데이터 비율·증강 조합별 실험, 탐지+분류 2단계 구성, 오류 분석·시각화
+
+{% for post in site.posts %}
+  {% if post.categories contains "facility-defect-diagnosis" %}
+- **포스팅**: [{{ post.title }}]({{ post.url }})
+  {% endif %}
+{% endfor %}
+
+### 기타 프로젝트
+{% for post in site.posts %}
+  {% if post.categories contains "road-privacy-masking" or post.categories contains "tunnel-crack-detection" or post.categories contains "crack-segmentation" or post.categories contains "pole-monitoring-viewer" or post.categories contains "pole-gps-image-curation" %}
+- [{{ post.title }}]({{ post.url }})
   {% endif %}
 {% endfor %}
 
